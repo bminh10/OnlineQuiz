@@ -1,0 +1,92 @@
+
+body{
+    font-family: "Alata", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+    display:flex;
+    flex-direction: row;
+    margin:0px; /*Xoa khoang trang toan trang*/
+    padding:0px;
+    
+}
+div.Menu{
+    display: flex;
+    flex-direction: column;
+    background-color: #1f48ff;
+    box-shadow: 0px 0px 30px blue;
+    border-radius:0 30px 30px 0px ;
+    width:30vh;
+    height:100vh;
+    transition: width 1s;
+    
+}
+div.cards{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap:60px;
+    margin-left: 100px;
+    margin-top: 30px;
+    font-size: 28px;
+
+}
+div.card{
+    background-color: #1f48ff;
+    border-radius: 30px;
+}
+
+h1{
+    font-family: "Noto Serif Display";
+    font-style: italic;
+    font-weight: bold;
+    color: #e4eaec;
+    
+    text-shadow: 0px 0px 20px white;
+    margin-left:20px;
+    font-size:20px;
+    
+}
+div.tieude{
+    margin-top: 10px;
+    width: 50vh;
+    font-size: 20px;
+    text-align: right;
+    font-family: "Noto Serif Display";
+    font-style: italic;
+    font-weight: bold;
+    color: #1f48ff;
+    text-shadow: 0px 0px 20px #1f48ff;
+}
+
+
+div.bangmon{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+a.tag{
+    display:flex;
+    align-items: center; /*giup can giua theo chieu ngang*/
+    justify-content: center; /*giup can giua theo chieu doc*/
+    font-size: 30px;
+    text-decoration: none;
+    color:black;
+    background-color: #e4eaec;
+    box-shadow:0px 0px 20px;
+    width:24vh;
+    height:100px; /*Hien thi toan trang*/
+    border-radius: 40px;
+    text-align: center;
+    margin:70px auto;
+    transition: transform 1s;
+}
+
+a:hover{
+    transform: scale(1.1,1.1)
+}
+
+div.Menu:hover{
+    width:35vh;
+}
